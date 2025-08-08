@@ -1,7 +1,7 @@
 # lowcost-ml-cancer-nscl
 
 **Proyecto:** EVALUACIÓN COMPARATIVA DE MODELOS DE APRENDIZAJE AUTOMÁTICO DE BAJO COSTO PARA DIAGNÓSTICO DE CÉLULAS CANCEROSAS  
-**Dataset:**  NSCL
+**Dataset:**  Dataset NSCL-Radiomics
 
 ## Contenido
 - `data/` - scripts para descargar/convertir (no subir datos sensibles)

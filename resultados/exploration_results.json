@@ -1,0 +1,262 @@
+{
+  "dataset_shape": [
+    1267,
+    17
+  ],
+  "memory_usage_mb": 0.9337749481201172,
+  "column_types": {
+    "id_columns": [
+      "Series UID",
+      "Data Description URI",
+      "Number of Images",
+      "File Location",
+      "Data_ID_clean",
+      "PatientID",
+      "ID_clean",
+      "image_folder_pattern"
+    ],
+    "target_column": "deadstatus.event",
+    "numeric_columns": [
+      "age",
+      "clinical.T.Stage",
+      "Clinical.N.Stage",
+      "Clinical.M.Stage",
+      "Survival.time"
+    ],
+    "categorical_columns": [
+      "Overall.Stage",
+      "Histology",
+      "gender"
+    ]
+  },
+  "missing_analysis": [
+    {
+      "Columna": "Histology",
+      "Valores_Faltantes": 126,
+      "Porcentaje_Faltante": 9.94475138121547,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "age",
+      "Valores_Faltantes": 66,
+      "Porcentaje_Faltante": 5.209155485398579,
+      "Tipo_Dato": "float64"
+    },
+    {
+      "Columna": "Overall.Stage",
+      "Valores_Faltantes": 3,
+      "Porcentaje_Faltante": 0.23677979479084454,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "clinical.T.Stage",
+      "Valores_Faltantes": 3,
+      "Porcentaje_Faltante": 0.23677979479084454,
+      "Tipo_Dato": "float64"
+    },
+    {
+      "Columna": "Series UID",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "ID_clean",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "deadstatus.event",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "int64"
+    },
+    {
+      "Columna": "Survival.time",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "int64"
+    },
+    {
+      "Columna": "gender",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "Clinical.N.Stage",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "int64"
+    },
+    {
+      "Columna": "Clinical.M.Stage",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "int64"
+    },
+    {
+      "Columna": "Data Description URI",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "PatientID",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "Data_ID_clean",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "File Location",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "Number of Images",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "int64"
+    },
+    {
+      "Columna": "image_folder_pattern",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    }
+  ],
+  "high_missing_columns": [],
+  "target_analysis": {
+    "distribution": {
+      "0": 147,
+      "1": 1120
+    },
+    "percentages": {
+      "0": 11.602209944751381,
+      "1": 88.39779005524862
+    },
+    "imbalance_ratio": 7.619047619047619,
+    "majority_class": "1",
+    "minority_class": "0"
+  },
+  "numeric_stats": {
+    "age": {
+      "count": 1201.0,
+      "mean": 68.0260607826811,
+      "std": 10.075840903422687,
+      "min": 33.6849,
+      "25%": 61.1937,
+      "50%": 68.4736,
+      "75%": 75.7782,
+      "max": 91.7043
+    },
+    "clinical.T.Stage": {
+      "count": 1264.0,
+      "mean": 2.475474683544304,
+      "std": 1.1301804153895367,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 2.0,
+      "75%": 4.0,
+      "max": 5.0
+    },
+    "Clinical.N.Stage": {
+      "count": 1267.0,
+      "mean": 1.3583267561168113,
+      "std": 1.2183820016697824,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 2.0,
+      "75%": 2.0,
+      "max": 4.0
+    },
+    "Clinical.M.Stage": {
+      "count": 1267.0,
+      "mean": 0.030781373322809787,
+      "std": 0.29449869908065435,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 3.0
+    },
+    "Survival.time": {
+      "count": 1267.0,
+      "mean": 989.2904498816101,
+      "std": 1034.388565995219,
+      "min": 10.0,
+      "25%": 261.0,
+      "50%": 547.0,
+      "75%": 1399.0,
+      "max": 4454.0
+    }
+  },
+  "outlier_summary": {
+    "age": {
+      "count": 3,
+      "percentage": 0.23677979479084454,
+      "lower_bound": 39.316950000000006,
+      "upper_bound": 97.65495
+    },
+    "clinical.T.Stage": {
+      "count": 0,
+      "percentage": 0.0,
+      "lower_bound": -1.0,
+      "upper_bound": 7.0
+    },
+    "Clinical.N.Stage": {
+      "count": 0,
+      "percentage": 0.0,
+      "lower_bound": -3.0,
+      "upper_bound": 5.0
+    },
+    "Clinical.M.Stage": {
+      "count": 15,
+      "percentage": 1.1838989739542225,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0
+    },
+    "Survival.time": {
+      "count": 96,
+      "percentage": 7.576953433307025,
+      "lower_bound": -1446.0,
+      "upper_bound": 3106.0
+    }
+  },
+  "categorical_summary": {
+    "Overall.Stage": {
+      "unique_values": 4,
+      "most_frequent": "IIIb",
+      "most_frequent_count": "530",
+      "most_frequent_percentage": 41.83109707971586
+    },
+    "Histology": {
+      "unique_values": 4,
+      "most_frequent": "squamous cell carcinoma",
+      "most_frequent_count": "457",
+      "most_frequent_percentage": 36.06945540647198
+    },
+    "gender": {
+      "unique_values": 2,
+      "most_frequent": "male",
+      "most_frequent_count": "872",
+      "most_frequent_percentage": 68.82399368587214
+    }
+  },
+  "image_verification": {
+    "total_in_metadata": 1267,
+    "total_series": 1267,
+    "total_images_expected": "52356",
+    "existing_images": 52250,
+    "missing_images": 24687,
+    "completeness_percentage": 99.79753991901596
+  }
+}

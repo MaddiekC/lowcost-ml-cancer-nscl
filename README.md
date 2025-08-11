@@ -3,6 +3,11 @@
 **Proyecto:** EVALUACIÓN COMPARATIVA DE MODELOS DE APRENDIZAJE AUTOMÁTICO DE BAJO COSTO PARA DIAGNÓSTICO DE CÉLULAS CANCEROSAS  
 **Dataset:**  Dataset NSCL-Radiomics
 
+Otros Repositorios 
+- https://github.com/MaddiekC/lowcost-ml-cancer-cmmd.git
+- https://github.com/DilanT123/lowcost-ml-cancer-padufes20.git
+- https://github.com/DilanT123/lowcost-ml-cancer-cnn-extratrees.git
+  
 ## Contenido
 - `data/` - scripts para descargar/convertir (no subir datos sensibles)
 - `notebooks/` - notebooks de análisis y entrenamiento
